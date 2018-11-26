@@ -43,6 +43,7 @@
 				<p class="site-description"><?php echo $clockwork_orange_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
+				<div class="logo"></div>
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'clockwork_orange' ); ?></button>
